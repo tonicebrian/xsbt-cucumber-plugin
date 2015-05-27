@@ -17,7 +17,7 @@ object Settings {
 
 object Dependencies {
 
-  private val CucumberVersion = "1.1.8"
+  private val CucumberVersion = "1.2.2"
 
   def cucumberJvm(scalaVersion: String) = 
     if ( scalaVersion.startsWith("2.9") ) "info.cukes" % "cucumber-scala_2.9" % CucumberVersion % "compile"
